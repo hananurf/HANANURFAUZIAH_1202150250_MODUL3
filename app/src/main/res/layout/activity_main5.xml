@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hananurfauziah.hananurfauziah_1202150250_modul3.Main5Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ImageDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/titleDetail"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ImageDetail"
+            android:padding="8dp"
+            android:text="Air Minum"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:textColor="@color/cardview_dark_background"/>
+
+        <TextView
+            android:id="@+id/subTitleDetail"
+            style="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/titleDetail"
+            android:padding="8dp"
+            android:text="@string/air_mineral" />
+
+        <ImageView
+            android:id="@+id/air"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/subTitleDetail"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_botol" />
+
+        </RelativeLayout>
+</ScrollView>
